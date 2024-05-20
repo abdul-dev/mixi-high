@@ -22,5 +22,6 @@
             cursor: pointer !important;
         }
     </style>
+    <base href="/">
 </head>
 <!--end::Head-->
