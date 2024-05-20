@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{asset('assets/media/favicon.ico')}}"/>
     <!--begin::Fonts(mandatory for all pages)-->
-    <link type="text/html" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"/>
     <!--end::Fonts-->
     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
-    <link type="text/html" href="{{asset('assets/plugins/global/plugins.bundle.css')}}" />
-    <link type="text/html" href="{{asset('assets/css/style.bundle.css')}}"/>
+    <link href="{{asset('assets/plugins/global/plugins.bundle.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{asset('assets/css/style.bundle.css')}}" rel="stylesheet" type="text/css"/>
     <!--end::Global Stylesheets Bundle-->
     <style type="text/css">
         .form-switch.form-check-solid.form-check-custom-color .form-check-input:not(:checked) {
@@ -22,6 +22,5 @@
             cursor: pointer !important;
         }
     </style>
-    <base href="/">
 </head>
 <!--end::Head-->
