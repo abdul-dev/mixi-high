@@ -10,8 +10,8 @@
     <link type="text/html" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"/>
     <!--end::Fonts-->
     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
-    <link type="text/html" href="{{asset('assets/plugins/global/plugins.bundle.css')}}"  type="text/css"/>
-    <link type="text/html" href="{{asset('assets/css/style.bundle.css')}}" type="text/css"/>
+    <link type="text/html" href="{{asset('assets/plugins/global/plugins.bundle.css')}}" />
+    <link type="text/html" href="{{asset('assets/css/style.bundle.css')}}"/>
     <!--end::Global Stylesheets Bundle-->
     <style type="text/css">
         .form-switch.form-check-solid.form-check-custom-color .form-check-input:not(:checked) {
